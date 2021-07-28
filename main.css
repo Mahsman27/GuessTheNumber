@@ -10,7 +10,7 @@
 body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 7s ease infinite;
 }
 
 @keyframes gradient {
@@ -64,7 +64,7 @@ body{
 }
 
 .numbers{
-    background-color: white;
+    background-color: #e0e0e0;
     color: black;
     margin-right: 50px;
     margin-left: 50px;
@@ -96,3 +96,8 @@ body{
       box-shadow: 0 0 0 0 black;
     }
   }
+
+.scoreDiv{
+    margin-top: 40px;
+    color: white;
+}
