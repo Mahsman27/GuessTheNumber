@@ -9,8 +9,8 @@
 
 body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 7s ease infinite;
+    background-size: 300%;
+    animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -100,4 +100,11 @@ body{
 .scoreDiv{
     margin-top: 40px;
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+/* 
+Add support for mobile :)
+*/
