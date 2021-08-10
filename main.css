@@ -10,11 +10,7 @@
 body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 300%;
-<<<<<<< HEAD
-    animation: gradient 10s ease infinite;
-=======
     animation: gradient 7s ease infinite;
->>>>>>> c4320314227963e2c22b533097cc40313f65151f
 }
 
 @keyframes gradient {
@@ -114,15 +110,11 @@ body{
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-/* 
-Add support for mobile :)
-*/
-=======
 .footer{
     color: white;
+    position: fixed;
     bottom: 0;
+    align-self: center;
 }
 
 /* mobile formatting below */
->>>>>>> c4320314227963e2c22b533097cc40313f65151f
